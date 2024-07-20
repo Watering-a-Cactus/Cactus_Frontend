@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  cactus
-//
-//  Created by 박지민 on 7/20/24.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
