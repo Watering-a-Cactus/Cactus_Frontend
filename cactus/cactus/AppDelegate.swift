@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  cactus
-//
-//  Created by 김영광 on 7/20/24.
-//
-
 import UIKit
 
 @main

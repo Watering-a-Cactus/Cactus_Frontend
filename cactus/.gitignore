@@ -17,8 +17,6 @@ Pods/
 ## User settings
 xcuserdata/
 
-
-
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
 *.xccheckout
@@ -108,7 +106,9 @@ iOSInjectionProject/
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# ignore all .xcuserstate
+
 *.xcuserstate
+
+*.pbxproj binary merge=union
 
 # End of https://www.toptal.com/developers/gitignore/api/xcode,cocoapods,swift

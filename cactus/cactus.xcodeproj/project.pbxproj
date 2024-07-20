@@ -59,8 +59,8 @@
 		56359EAE2C4BB01F00C98485 /* cactus */ = {
 			isa = PBXGroup;
 			children = (
-				56359EAF2C4BB01F00C98485 /* AppDelegate.swift */,
 				56359EB12C4BB01F00C98485 /* SceneDelegate.swift */,
+				56359EAF2C4BB01F00C98485 /* AppDelegate.swift */,
 				56359EB32C4BB01F00C98485 /* ViewController.swift */,
 				56359EB52C4BB01F00C98485 /* Main.storyboard */,
 				56359EB82C4BB02000C98485 /* Assets.xcassets */,
