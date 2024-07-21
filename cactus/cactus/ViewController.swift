@@ -1,7 +1,6 @@
 // 협업을 위한 git test - geurrae,way
 // geurrae 작업 테스트
-
-// print("waygogogo")
+// Main.storyboard 수정 - geurrae
 
 import UIKit
 
