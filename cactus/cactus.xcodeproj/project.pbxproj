@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		56359ED22C4BC0B400C98485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56359ED12C4BC0B400C98485 /* AppDelegate.swift */; };
 		56359ED42C4BC0B400C98485 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56359ED32C4BC0B400C98485 /* SceneDelegate.swift */; };
 		56359ED62C4BC0B400C98485 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56359ED52C4BC0B400C98485 /* ViewController.swift */; };
@@ -30,6 +31,31 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		56359ECB2C4BC0B400C98485 /* Frameworks */ = {
+=======
+		4E80181D2C4BC0B3006AB418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E80181C2C4BC0B3006AB418 /* AppDelegate.swift */; };
+		4E80181F2C4BC0B3006AB418 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E80181E2C4BC0B3006AB418 /* SceneDelegate.swift */; };
+		4E8018212C4BC0B3006AB418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8018202C4BC0B3006AB418 /* ViewController.swift */; };
+		4E8018242C4BC0B3006AB418 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4E8018232C4BC0B3006AB418 /* Base */; };
+		4E8018262C4BC0B5006AB418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8018252C4BC0B5006AB418 /* Assets.xcassets */; };
+		4E8018292C4BC0B5006AB418 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4E8018282C4BC0B5006AB418 /* Base */; };
+		4E8018312C4BC125006AB418 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4E8018302C4BC125006AB418 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E8018192C4BC0B3006AB418 /* cactus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cactus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E80181C2C4BC0B3006AB418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E80181E2C4BC0B3006AB418 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E8018202C4BC0B3006AB418 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E8018232C4BC0B3006AB418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E8018252C4BC0B5006AB418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E8018282C4BC0B5006AB418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E80182A2C4BC0B5006AB418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8018302C4BC125006AB418 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8018162C4BC0B3006AB418 /* Frameworks */ = {
+>>>>>>> Stashed changes
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +65,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< Updated upstream
 		56359EC52C4BC0B400C98485 = {
 			isa = PBXGroup;
 			children = (
@@ -52,10 +79,26 @@
 			isa = PBXGroup;
 			children = (
 				56359ECE2C4BC0B400C98485 /* cactus.app */,
+=======
+		4E8018102C4BC0B3006AB418 = {
+			isa = PBXGroup;
+			children = (
+				4E8018302C4BC125006AB418 /* .gitignore */,
+				4E80181B2C4BC0B3006AB418 /* cactus */,
+				4E80181A2C4BC0B3006AB418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E80181A2C4BC0B3006AB418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8018192C4BC0B3006AB418 /* cactus.app */,
+>>>>>>> Stashed changes
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		56359ED02C4BC0B400C98485 /* cactus */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +109,18 @@
 				56359EDA2C4BC0B500C98485 /* Assets.xcassets */,
 				56359EDC2C4BC0B500C98485 /* LaunchScreen.storyboard */,
 				56359EDF2C4BC0B500C98485 /* Info.plist */,
+=======
+		4E80181B2C4BC0B3006AB418 /* cactus */ = {
+			isa = PBXGroup;
+			children = (
+				4E80181C2C4BC0B3006AB418 /* AppDelegate.swift */,
+				4E80181E2C4BC0B3006AB418 /* SceneDelegate.swift */,
+				4E8018202C4BC0B3006AB418 /* ViewController.swift */,
+				4E8018222C4BC0B3006AB418 /* Main.storyboard */,
+				4E8018252C4BC0B5006AB418 /* Assets.xcassets */,
+				4E8018272C4BC0B5006AB418 /* LaunchScreen.storyboard */,
+				4E80182A2C4BC0B5006AB418 /* Info.plist */,
+>>>>>>> Stashed changes
 			);
 			path = cactus;
 			sourceTree = "<group>";
@@ -73,6 +128,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< Updated upstream
 		56359ECD2C4BC0B400C98485 /* cactus */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56359EE22C4BC0B500C98485 /* Build configuration list for PBXNativeTarget "cactus" */;
@@ -80,6 +136,15 @@
 				56359ECA2C4BC0B400C98485 /* Sources */,
 				56359ECB2C4BC0B400C98485 /* Frameworks */,
 				56359ECC2C4BC0B400C98485 /* Resources */,
+=======
+		4E8018182C4BC0B3006AB418 /* cactus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E80182D2C4BC0B5006AB418 /* Build configuration list for PBXNativeTarget "cactus" */;
+			buildPhases = (
+				4E8018152C4BC0B3006AB418 /* Sources */,
+				4E8018162C4BC0B3006AB418 /* Frameworks */,
+				4E8018172C4BC0B3006AB418 /* Resources */,
+>>>>>>> Stashed changes
 			);
 			buildRules = (
 			);
@@ -87,25 +152,41 @@
 			);
 			name = cactus;
 			productName = cactus;
+<<<<<<< Updated upstream
 			productReference = 56359ECE2C4BC0B400C98485 /* cactus.app */;
+=======
+			productReference = 4E8018192C4BC0B3006AB418 /* cactus.app */;
+>>>>>>> Stashed changes
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< Updated upstream
 		56359EC62C4BC0B400C98485 /* Project object */ = {
+=======
+		4E8018112C4BC0B3006AB418 /* Project object */ = {
+>>>>>>> Stashed changes
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+<<<<<<< Updated upstream
 					56359ECD2C4BC0B400C98485 = {
+=======
+					4E8018182C4BC0B3006AB418 = {
+>>>>>>> Stashed changes
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
+<<<<<<< Updated upstream
 			buildConfigurationList = 56359EC92C4BC0B400C98485 /* Build configuration list for PBXProject "cactus" */;
+=======
+			buildConfigurationList = 4E8018142C4BC0B3006AB418 /* Build configuration list for PBXProject "cactus" */;
+>>>>>>> Stashed changes
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,17 +194,27 @@
 				en,
 				Base,
 			);
+<<<<<<< Updated upstream
 			mainGroup = 56359EC52C4BC0B400C98485;
 			productRefGroup = 56359ECF2C4BC0B400C98485 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				56359ECD2C4BC0B400C98485 /* cactus */,
+=======
+			mainGroup = 4E8018102C4BC0B3006AB418;
+			productRefGroup = 4E80181A2C4BC0B3006AB418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8018182C4BC0B3006AB418 /* cactus */,
+>>>>>>> Stashed changes
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< Updated upstream
 		56359ECC2C4BC0B400C98485 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,12 +223,23 @@
 				56359EDB2C4BC0B500C98485 /* Assets.xcassets in Resources */,
 				56359EDE2C4BC0B500C98485 /* Base in Resources */,
 				56359ED92C4BC0B400C98485 /* Base in Resources */,
+=======
+		4E8018172C4BC0B3006AB418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8018312C4BC125006AB418 /* .gitignore in Resources */,
+				4E8018262C4BC0B5006AB418 /* Assets.xcassets in Resources */,
+				4E8018292C4BC0B5006AB418 /* Base in Resources */,
+				4E8018242C4BC0B3006AB418 /* Base in Resources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< Updated upstream
 		56359ECA2C4BC0B400C98485 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,24 +247,47 @@
 				56359ED62C4BC0B400C98485 /* ViewController.swift in Sources */,
 				56359ED22C4BC0B400C98485 /* AppDelegate.swift in Sources */,
 				56359ED42C4BC0B400C98485 /* SceneDelegate.swift in Sources */,
+=======
+		4E8018152C4BC0B3006AB418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8018212C4BC0B3006AB418 /* ViewController.swift in Sources */,
+				4E80181D2C4BC0B3006AB418 /* AppDelegate.swift in Sources */,
+				4E80181F2C4BC0B3006AB418 /* SceneDelegate.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+<<<<<<< Updated upstream
 		56359ED72C4BC0B400C98485 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				56359ED82C4BC0B400C98485 /* Base */,
+=======
+		4E8018222C4BC0B3006AB418 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8018232C4BC0B3006AB418 /* Base */,
+>>>>>>> Stashed changes
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		56359EDC2C4BC0B500C98485 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				56359EDD2C4BC0B500C98485 /* Base */,
+=======
+		4E8018272C4BC0B5006AB418 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8018282C4BC0B5006AB418 /* Base */,
+>>>>>>> Stashed changes
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +295,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< Updated upstream
 		56359EE02C4BC0B500C98485 /* Debug */ = {
+=======
+		4E80182B2C4BC0B5006AB418 /* Debug */ = {
+>>>>>>> Stashed changes
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +362,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< Updated upstream
 		56359EE12C4BC0B500C98485 /* Release */ = {
+=======
+		4E80182C2C4BC0B5006AB418 /* Release */ = {
+>>>>>>> Stashed changes
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,7 +422,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< Updated upstream
 		56359EE32C4BC0B500C98485 /* Debug */ = {
+=======
+		4E80182E2C4BC0B5006AB418 /* Debug */ = {
+>>>>>>> Stashed changes
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -308,7 +445,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+<<<<<<< Updated upstream
 				PRODUCT_BUNDLE_IDENTIFIER = com.glory.cactus;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.geurrae.cactus;
+>>>>>>> Stashed changes
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -320,7 +461,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< Updated upstream
 		56359EE42C4BC0B500C98485 /* Release */ = {
+=======
+		4E80182F2C4BC0B5006AB418 /* Release */ = {
+>>>>>>> Stashed changes
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -339,7 +484,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+<<<<<<< Updated upstream
 				PRODUCT_BUNDLE_IDENTIFIER = com.glory.cactus;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.geurrae.cactus;
+>>>>>>> Stashed changes
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -354,25 +503,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< Updated upstream
 		56359EC92C4BC0B400C98485 /* Build configuration list for PBXProject "cactus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56359EE02C4BC0B500C98485 /* Debug */,
 				56359EE12C4BC0B500C98485 /* Release */,
+=======
+		4E8018142C4BC0B3006AB418 /* Build configuration list for PBXProject "cactus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E80182B2C4BC0B5006AB418 /* Debug */,
+				4E80182C2C4BC0B5006AB418 /* Release */,
+>>>>>>> Stashed changes
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< Updated upstream
 		56359EE22C4BC0B500C98485 /* Build configuration list for PBXNativeTarget "cactus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56359EE32C4BC0B500C98485 /* Debug */,
 				56359EE42C4BC0B500C98485 /* Release */,
+=======
+		4E80182D2C4BC0B5006AB418 /* Build configuration list for PBXNativeTarget "cactus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E80182E2C4BC0B5006AB418 /* Debug */,
+				4E80182F2C4BC0B5006AB418 /* Release */,
+>>>>>>> Stashed changes
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<< Updated upstream
 	rootObject = 56359EC62C4BC0B400C98485 /* Project object */;
+=======
+	rootObject = 4E8018112C4BC0B3006AB418 /* Project object */;
+>>>>>>> Stashed changes
 }
