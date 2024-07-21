@@ -1,5 +1,7 @@
 // 협업을 위한 git test - geurrae,way
 
+// print("waygogogo")
+
 import UIKit
 
 class ViewController: UIViewController {
