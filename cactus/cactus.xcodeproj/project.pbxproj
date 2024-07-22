@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560EDECA2C4E35A80059BA83 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560EDEC92C4E35A80059BA83 /* Chat.storyboard */; };
+		560EDECC2C4E35B70059BA83 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560EDECB2C4E35B70059BA83 /* ChatVC.swift */; };
 		56359ED22C4BC0B400C98485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56359ED12C4BC0B400C98485 /* AppDelegate.swift */; };
 		56359ED42C4BC0B400C98485 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56359ED32C4BC0B400C98485 /* SceneDelegate.swift */; };
 		56359ED62C4BC0B400C98485 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56359ED52C4BC0B400C98485 /* ViewController.swift */; };
@@ -15,11 +17,11 @@
 		56359EDE2C4BC0B500C98485 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 56359EDD2C4BC0B500C98485 /* Base */; };
 		56359EE62C4BC12400C98485 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 56359EE52C4BC12400C98485 /* .gitignore */; };
 		56359EE82C4CFE2800C98485 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 56359EE72C4CFE2800C98485 /* .gitattributes */; };
-		56359EEA2C4D0A3500C98485 /* VoiceWay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56359EE92C4D0A3500C98485 /* VoiceWay.storyboard */; };
-		56359EEC2C4D0A5100C98485 /* VoiceWayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56359EEB2C4D0A5100C98485 /* VoiceWayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		560EDEC92C4E35A80059BA83 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		560EDECB2C4E35B70059BA83 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		56359ECE2C4BC0B400C98485 /* cactus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cactus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56359ED12C4BC0B400C98485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56359ED32C4BC0B400C98485 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +32,6 @@
 		56359EDF2C4BC0B500C98485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56359EE52C4BC12400C98485 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		56359EE72C4CFE2800C98485 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
-		56359EE92C4D0A3500C98485 /* VoiceWay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VoiceWay.storyboard; sourceTree = "<group>"; };
-		56359EEB2C4D0A5100C98485 /* VoiceWayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceWayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 				56359EDA2C4BC0B500C98485 /* Assets.xcassets */,
 				56359EDC2C4BC0B500C98485 /* LaunchScreen.storyboard */,
 				56359EDF2C4BC0B500C98485 /* Info.plist */,
-				56359EE92C4D0A3500C98485 /* VoiceWay.storyboard */,
-				56359EEB2C4D0A5100C98485 /* VoiceWayVC.swift */,
+				560EDEC92C4E35A80059BA83 /* Chat.storyboard */,
+				560EDECB2C4E35B70059BA83 /* ChatVC.swift */,
 			);
 			path = cactus;
 			sourceTree = "<group>";
@@ -137,10 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560EDECA2C4E35A80059BA83 /* Chat.storyboard in Resources */,
 				56359EE82C4CFE2800C98485 /* .gitattributes in Resources */,
 				56359EE62C4BC12400C98485 /* .gitignore in Resources */,
 				56359EDB2C4BC0B500C98485 /* Assets.xcassets in Resources */,
-				56359EEA2C4D0A3500C98485 /* VoiceWay.storyboard in Resources */,
 				56359EDE2C4BC0B500C98485 /* Base in Resources */,
 				56359ED92C4BC0B400C98485 /* Base in Resources */,
 			);
@@ -153,10 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560EDECC2C4E35B70059BA83 /* ChatVC.swift in Sources */,
 				56359ED62C4BC0B400C98485 /* ViewController.swift in Sources */,
 				56359ED22C4BC0B400C98485 /* AppDelegate.swift in Sources */,
 				56359ED42C4BC0B400C98485 /* SceneDelegate.swift in Sources */,
-				56359EEC2C4D0A5100C98485 /* VoiceWayVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
